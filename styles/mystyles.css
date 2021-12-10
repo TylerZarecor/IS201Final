@@ -1,0 +1,69 @@
+body{
+    background-color: silver;
+}
+
+header.masthead {
+    background-color: #195190ff;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color:lightgray;
+  }
+
+li.a{
+    color: #195190ff;
+    font-size: large;
+}
+
+ol.b{
+    font-size: medium;
+}
+
+a.c{
+    color: #195190ff;
+}
+
+a.c:hover{
+    font-weight: bold;
+    text-decoration: underline
+}
+
+ul.resume{
+    margin-left: 8px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    background-color:silver;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: silver;
+    border: none;
+    padding: 10px;
+}
+
+figcaption {
+     background-color: silver;
+    color: 195190ff;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+h3.AboutMeHeader{
+    margin-left: 20px;
+}
+
+.ParisLink{
+    color: black;
+}
+
+.ParisLink:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
